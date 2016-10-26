@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-	<link rel="shortcut icon" type="image/ico" href="assets/img/favicon.png"/>
+    <!--- <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.png"/> --->
 
-    <title>Siobhan Fisher | User Experience Designer </title>
+    <title>Siobhan Fisher | UX Designer </title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -29,9 +29,9 @@
 
   <body>
 
-    <!-- Static navbar -->
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="container">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -39,15 +39,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Siobhan Fisher</a>
+          <a class="navbar-brand" href="index.html">Siobhan Fisher - UX Designer</a>
         </div>
 
         <div class="collapse navbar-collapse">
 	      <ul class="nav navbar-nav">
 	        <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="placeholder.html">About</a></li>
 	      </ul>
-	    </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a>siobhan_fisher@yahoo.com</a></li>
+            <li><a href="https://www.linkedin.com/in/siobhanbfisher" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://twitter.com/AsEnglishAsPie" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://github.com/AsEnglishAsPie" target="_blank"><i class="fa fa-github"></i></a></li>
+          </ul>
+	      </div>
+      </div>
+    </div>
 
 	<div id="workwrap">
 	    <div class="container">
@@ -55,7 +63,7 @@
 					<h1>Cheq</h1>
 					<p><strong>Project:</strong> Two week individual student project to create a landing for a mobile app</p>
 					<p><strong>My role:</strong> Visual design, Branding, Web Development</p>
-					<p><strong>Where and when:</strong> General Assembly, October 2016</p>
+					<p><strong>Where and when:</strong> General Assembly User Experience Design Immersive, October 2016</p>
 			</div><! --/row -->
 	    </div> <!-- /container -->
 	</div><! --/workwrap -->
@@ -69,81 +77,102 @@
 				<h4>The Task</h4>
 				<p>Cheq was a two week individual project as part of the User Experience Design Immersive at General Assembly. We were charged with designing and coding a promotional landing page for another student’s project, with that student acting as our client. My client’s idea is a smartphone and smartwatch app that tracks expenses for solo entrepreneurs and freelancers who do not have a business account. My client wanted me to re-brand her concept, so I decided to call the app “Cheq.”</p>
       </div>
+
       <div class="col-lg-8 col-lg-offset-2 mt text-left">
 				<h4>Branding</h4>
 				<p>Because this website is for a financial product, it is important that it be perceived as serious and trustworthy. However, because the target market is freelancers and solo entrepreneurs, who are often the creatives of this world, the site cannot veer towards the stuffy side of serious. I tried to walk this line throughout the whole design process.</p>
       </div>
+
       <div class="col-lg-8 col-lg-offset-2 mt text-left">
 				<h4>Competitive Analysis and Mood Boards</h4>
 				<p>I looked at other websites providing similar services, as well as other websites aimed at the same target market. For further inspiration, I looked at a lot of design portfolios. Designers a large part of the target market so this seemed a good way to incorporate their aesthetic.</p>
         <p>With the results of this competitive analysis and other inspiration pieces, I created some mood boards.</p>
       </div>
-      <div class="col-lg-4 col-lg-offset-2 col-md-4 col-sm-4 gallery">
-				<img class="img-responsive" src="assets/img/cheq/01_Mood_Board_Finance_and Freelance.png">
+      <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
+        <div class="col-lg-4 col-lg-offset-2 col-md-4 col-sm-4 illustration">
+  				<img class="img-responsive" src="assets/img/cheq/01_Mood_Board_Finance_and Freelance.png">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+            <img class="img-responsive" src="assets/img/cheq/02_Mood Board_Colors_Textures_and_Graphics.png">
+	      </div>
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-          <img class="img-responsive" src="assets/img/cheq/02_Mood Board_Colors_Textures_and_Graphics.png">
-	     </div>
 
 			<div class="col-lg-8 col-lg-offset-2 text-left">
 				<h4 class="mt">Logo</h4>
-					<p>To bring all this information back together and focus on the brand personality of the product, I decided to spend some time coming up with a logo. I wanted to incorporate both meanings of “check” by having the text look like a signature as well as including a check mark. I came up with five alternatives and tested them on a few people. It became clear very quickly that people preferred the fifth logo.</p>
-        <img class="img-responsive" src="assets/img/cheq/03_Logos.png">
+					<p>To bring all this information back together and focus on the brand personality of the product, I decided to spend some time coming up with a logo. I wanted to incorporate both meanings of “check” by having the text look like a signature as well as including a check mark. I came up with five alternatives and tested them on a few people. The final logo quickly showed to be a favorite.</p>
+      </div>
+      <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
+        <img class="img-responsive illustration" src="assets/img/cheq/03_Logos.png">
+      </div>
 
+      <div class="col-lg-8 col-lg-offset-2 text-left">
 				<h4 class="mt">Style Tiles and Wireframes</h4>
-					<p>With this fundamental element finalized, I moved on to creating style tiles and wireframes for three possible layouts.</p>
-          <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-            <img class="img-responsive" src="assets/img/cheq/04_Dark_Background_Texture_Style_Tile.png">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-            <img class="img-responsive" src="assets/img/cheq/05_Minimalist_Style_Tile.png">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-            <img class="img-responsive" src="assets/img/cheq/06_Banking_Blue_Style_Tile.png">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-            <img class="img-responsive" src="assets/img/cheq/07_One_Page_Layout.png">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-            <img class="img-responsive" src="assets/img/cheq/08_Two_Panel_Layout.png">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-            <img class="img-responsive" src="assets/img/cheq/09_Three_Panel_Layout.png">
-          </div>
+				<p>With the logo finalized, I moved on to creating style tiles and wireframes for three possible layouts.</p>
+      </div>
+
+      <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+          <img class="img-responsive" src="assets/img/cheq/04_Dark_Background_Texture_Style_Tile.png">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+          <img class="img-responsive" src="assets/img/cheq/05_Minimalist_Style_Tile.png">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+          <img class="img-responsive" src="assets/img/cheq/06_Banking_Blue_Style_Tile.png">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+          <img class="img-responsive" src="assets/img/cheq/07_One_Page_Layout.png">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+          <img class="img-responsive" src="assets/img/cheq/08_Two_Panel_Layout.png">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+          <img class="img-responsive" src="assets/img/cheq/09_Three_Panel_Layout.png">
         </div>
       </div>
 
       <div class="col-lg-8 col-lg-offset-2 text-left">
 				<h4 class="mt">Mock-Ups and User Testing</h4>
-					<p>Using these style tiles and wireframes, I then created mock-ups of three different executions of the design, including creating some higher fidelity screens of the app. I tested these mock-ups on seven people to establish which was the most effective to move forward with.</p>
-          <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-            <img class="img-responsive" src="assets/img/cheq/10_Dark_Background_Texture_Mock_Up.png">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-            <img class="img-responsive" src="assets/img/cheq/11_Minimalist_Mock_Up.png">
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-            <img class="img-responsive" src="assets/img/cheq/12_Banking_Blue_Mock_Up.png">
-          </div>
-        </div>
+				<p>Using these style tiles and wireframes, I then created mock-ups of three different executions of the design, including creating some higher fidelity screens of the app. I tested these mock-ups on seven people to establish which was the most effective to move forward with.</p>
+      </div>
 
-        <div class="col-lg-8 col-lg-offset-2 text-left">
-          <h4 class="mt">Results of User Testing</h4>
-					<p>In terms, of overall favorite, the votes were split between the dark background one page design and the blue three panel design. The minimalist design was equally viewed as clean or boring. In terms of color scheme, the turquoise was most popular, with most people enthusiastic about the color. Only one person indicated that they didn’t like the turquoise color. Some people viewed the blue color scheme as professional but others viewed it as boring. In terms of layout, the three panel structure was most popular. I got further feedback on the blue three panel design in the form of a class review. </p>
+      <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+          <img class="img-responsive" src="assets/img/cheq/10_Dark_Background_Texture_Mock_Up.png">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+          <img class="img-responsive" src="assets/img/cheq/11_Minimalist_Mock_Up.png">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 illustration">
+          <img class="img-responsive" src="assets/img/cheq/12_Banking_Blue_Mock_Up.png">
+        </div>
+      </div>
+
+      <div class="col-lg-8 col-lg-offset-2 text-left">
+        <h4 class="mt">Results of User Testing</h4>
+				<p>In terms, of overall favorite, the votes were split between the dark background one page design and the blue three panel design. The minimalist design was equally viewed as clean or boring. In terms of color scheme, the turquoise was most popular, with most people enthusiastic about the color. Only one person indicated that they didn’t like the turquoise color. Some people viewed the blue color scheme as professional but others viewed it as boring. In terms of layout, the three panel structure was most popular. I got further feedback on the blue three panel design in the form of a class review. </p>
+      </div>
+
+      <div class="col-lg-8 col-lg-offset-2 text-left">
         <h4 class="mt">Iteration and Final Mock-Up</h4>
         <p>The results of the class review confirmed that the blue color scheme was too boring for a site aimed at creative people, so I switched to the more successful turquoise color scheme. The layout was seen as clear, but several people indicated that it ended too abruptly and needed a conclusion panel, so I added this. The text was hard to read on the first page against the computer keyboard, so I changed the background image. I added two new mock-up screens to better show the flow of the app and an image on the final screen to tie it back to the first screen.</p>
       </div>
-      <div class="col-lg-6 col-lg-offset-3 text-left mt">
-					<img class="img-responsive" src="assets/img/cheq/13_Final_Mock_up.png">
+
+      <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
+        <div class="col-lg-8 col-lg-offset-2 text-left illustration">
+    				<img class="img-responsive" src="assets/img/cheq/13_Final_Mock_up.png">
+        </div>
       </div>
+
       <div class="col-lg-8 col-lg-offset-2 text-left">
-        </br>
           <h4 class="mt">Coding</h4>
 					<p>From the mock-up, I went on to coding the actual landing page in HTML and CSS. I started by making a desktop version that looked as close as possible to the mock-up. Once I had this base, I worked directly in code to make the site adaptive. I added two media queries so that the site would look good on both in both tablet and mobile version. The tablet version mostly just involved changing font proportions, whereas for the mobile version I changed the layout to be more mobile friendly.</p>
           <p>The <a href="https://asenglishaspie.github.io/Cheq-Landing-Page/" target="_blank">live website</a> is hosted on GitHub Pages, where you can also see the <a href="https://github.com/AsEnglishAsPie/Cheq-Landing-Page" target="_blank">code base</a>.</p>
-          <img class="img-responsive mt" src="assets/img/cheq/14_Laptop_Landing_Page.png">
-          <img class="img-responsive mt" src="assets/img/cheq/15_Tablet_Landing_Page.png">
-          <img class="img-responsive mt" src="assets/img/cheq/16_Mobile_Landing_Page.png">
+      </div>
+      <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
+          <img class="img-responsive illustration" src="assets/img/cheq/14_Laptop_Landing_Page.png">
+          <img class="img-responsive illustration" src="assets/img/cheq/15_Tablet_Landing_Page.png">
+          <img class="img-responsive illustration" src="assets/img/cheq/16_Mobile_Landing_Page.png">
 			</div>
 
 
