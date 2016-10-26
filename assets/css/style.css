@@ -85,16 +85,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #4a4a4a;
 }
 
-
 .navbar-brand {
 	font-weight: 700;
 }
 
 .navbar-default .navbar-brand {
 	color: #4a4a4a;
+  margin-left: 30px;
 }
 
-.navbar-default {
+/*.navbar-default {
 	background-color: transparent;
 	border-color: transparent;
 }
@@ -103,10 +103,14 @@ h1, h2, h3, h4, h5, h6 {
 	color: #4a4a4a;
 	background-color: transparent;
 	border-bottom: 2px solid #4a4a4a;
-}
+}*/
 
 .navbar-default .navbar-nav > li > a {
 	color: #4a4a4a;
+}
+
+.navbar-right {
+  margin-right: 30px;
 }
 
 /* ==========================================================================
@@ -243,7 +247,18 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 0.4;
 }
 
+.illustration {
+  margin-top: 30px;
+  /*border-style: solid;
+  border-width: medium;
+  border-color: gray;*/
+}
 
+.imgpanel {
+  background-color: #F2F2F2;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
 /* Masonry */
 .grid-item { width: 370px; }
 .grid-item--width2 { width: 740px; }

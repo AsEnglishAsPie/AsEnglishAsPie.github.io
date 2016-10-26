@@ -3643,6 +3643,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
+  padding-right: 50px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {
@@ -5617,7 +5618,7 @@ button.close {
 .panel-body:after,
 .modal-footer:before,
 .modal-footer:after {
-  display: table;
+  /*display: table;*/
   content: " ";
 }
 .clearfix:after,
