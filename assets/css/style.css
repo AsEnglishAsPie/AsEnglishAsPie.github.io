@@ -75,6 +75,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    padding-top: 85px;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -83,6 +84,27 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
     color: #4a4a4a;
+}
+
+.navbar-name {
+  /*font-family: 'Oswald', sans-serif;*/
+  /*font-family: 'Montserrat Subrayada', sans-serif;*/
+  font-family: 'Fascinate Inline', cursive;
+  /*font-family: 'Bungee Shade', cursive;*/
+  /*font-family: 'Bungee Outline', cursive;*/
+  /*font-family: 'Bungee Inline', cursive;*/
+  /*font-family: 'Fascinate', cursive;*/
+  font-weight: normal;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar-title {
+  font-size: 18px;
+  margin: 0;
 }
 
 .navbar-brand {

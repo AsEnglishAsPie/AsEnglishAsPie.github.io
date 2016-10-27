@@ -3641,7 +3641,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 85px;
   margin-bottom: 20px;
   padding-right: 50px;
   border: 1px solid transparent;
@@ -5618,7 +5618,7 @@ button.close {
 .panel-body:after,
 .modal-footer:before,
 .modal-footer:after {
-  /*display: table;*/
+  display: table;
   content: " ";
 }
 .clearfix:after,
