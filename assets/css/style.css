@@ -124,6 +124,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 30px;
 }
 
+.icon-link i:hover {
+	opacity: 0.4;
+}
+
+.menu a:hover {
+	opacity: 0.4;
+}
+
+.active {
+  background: #f8f8f8;
+  text-decoration: underline;
+}
+
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
