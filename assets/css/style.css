@@ -111,10 +111,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 767px) {
-  h1.navbar-name {
+    .navbar-name {
     margin-left: 0;
   }
-    h2.navbar-title {
+    .navbar-title {
     margin-left: 0;
   }
 }
@@ -122,11 +122,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand {
 	font-weight: 700;
 }
-
-/*.navbar-default .navbar-brand {
-	color: #4a4a4a;
-  margin-left: 30px;
-}*/
 
 .navbar-default .navbar-nav > li > a {
 	color: #4a4a4a;
@@ -215,7 +210,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #workwrap {
-/*	background: url(../img/work_bg_landmark.png) no-repeat center top;*/
 	background: none;
 	margin-top: -70px;
 	padding-top: 250px;
@@ -235,6 +229,14 @@ h1, h2, h3, h4, h5, h6 {
     -o-background-size: cover;
     background-size: cover;
 }
+
+/*Not working, not sure why
+@media (max-width: 767px) {
+  #workwrap {
+    padding-top: 150px;
+  }
+}*/
+
 
 #workwrap h1 {
 	color:#4a4a4a;
