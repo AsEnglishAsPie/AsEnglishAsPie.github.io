@@ -17,7 +17,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
 
-
 ::-moz-selection {
     background: #f2c2c9;
     color: #a4003a;
@@ -53,6 +52,10 @@
 
 .mt30 {
   margin-top: 30px;
+}
+
+.mt15 {
+  margin-top: 15px;
 }
 
 .mb {
@@ -328,10 +331,21 @@ h2 {
   visibility: hidden;
 }
 
-/*[doesn't work].prototype {
+.img-centered {
   margin-right: auto;
   margin-left: auto;
-}*/
+}
+
+.persona-text {
+  font-size: 0.8em;
+  padding: 5px;
+}
+
+.persona-tile {
+  border-style: solid;
+  border-width: medium;
+  border-color: #4a4a4a;
+}
 
 /* Masonry */
 .grid-item { width: 370px; }
