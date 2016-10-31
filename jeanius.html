@@ -67,7 +67,7 @@
 	    <div class="container">
 			<div class="row">
 					<h1>Jeanius</h1>
-					<p><strong>Project:</strong> One week individual student project to identify a problem within the topic of fashion and prototype a mobile app to solve it</p>
+					<p><strong>Project:</strong> One week individual project to identify a problem within the topic of fashion and prototype a mobile app to solve it</p>
 					<p><strong>Elements:</strong> User Research | Concept Development | Prototype Creation</p>
 					<p><strong>Where and when:</strong> General Assembly User Experience Design Immersive, August 2016</p>
 			</div><! --/row -->
@@ -79,35 +79,68 @@
 	<section id="works"></section>
 	<div class="container">
 		<div class="row centered">
-			<div class="col-lg-8 col-lg-offset-2 mt text-left">
-				<h4>What is Jeanius?</h4>
-				<p>Jeanius is an app to help women of all body types find off-the-shelf jeans that actually fit them.</p>
-        <p>Features:</p>
-          <ul>
-            <li>Enter your measurements manually or by taking a picture of yourself with the app</li>
-            <li>Get jean recommendations based on actual measurements of the jeans</li>
-            <li>See and post review of suggested jeans</li>
-            <li>See pictures of other users wearing suggested jeans and post them of yourself.</li>
-          </ul>
-      </div>
+      <div> <!-- Summary Section -->
+        <div class="col-lg-8 col-lg-offset-2 mt text-left">
+          <h2>Summary</h2>
+        </div>
+
+        <div class="col-lg-8 col-lg-offset-2 mt30 text-left">
+  				<h3>The Problem</h3>
+  				<p>The problem is two-fold: <strong>clothing sizes are not standardized and women’s bodies are not standardized</strong>.</p>
+          <p>This is a more pervasive problem than simple aesthetics. Research has shown that what you wear can actually affect your confidence<sup>1</sup>. Simply put: <strong>looking good can make you feel good</strong>.</p>
+          <p>Further, my user interviews showed that <strong>when people can’t find clothes that fit they get frustrated and even disheartened</strong>.</p>
+        </div>
+
+        <div class="col-lg-8 col-lg-offset-2 mt30 text-left">
+          <h3>The Process</h3>
+            <ul>
+              <li><a href="#user-research">User Research</a></li>
+              <li><a href="#story-boarding">Story Boarding</a></li>
+              <li><a href="#ideating">Ideating</a></li>
+              <li><a href="#user-flows">User Flows</a></li>
+              <li><a href="#wire-flows">Wire Flows</a></li>
+              <li><a href="#paper-prototype">Paper Prototype</a></li>
+              <li><a href="#user-testing">User Testing</a></li>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2 mt30 text-left">
+    				<h3>The Solution</h3>
+    				<p>By comparing the user’s actual measurements with actual measurements of a large variety of jeans, the app can offer recommendations of jeans that will fit the user’s body type and tell her exactly what size to buy, <strong>alleviating the frustration and disheartenment of not being able to find the correct size</strong>.</p>
+            <p>Further with personalized recommendations, <strong>the user will find a pair of jeans that makes them look great and feel great</strong>.</p>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2 mt30 text-left">
+            <h3>The Product</h3>
+    				<p>Jeanius is an app to help women of all body types find off-the-shelf jeans that actually fit them.</p>
+            <p>Features:</p>
+              <ul>
+                <li>Enter your measurements manually or by taking a picture of yourself with the app</li>
+                <li>Get jean recommendations based on actual measurements of the jeans</li>
+                <li>See and post review of suggested jeans</li>
+                <li>See pictures of other users wearing suggested jeans and post them of yourself</li>
+              </ul>
+            <p><a href="#final-lo-fi-prototype">See details</a></p>
+            <p><a href="#clickable-prototype">Go to clickable prototype</a></p>
+        </div>
+
+
+
+        </div>
+
+      </div><!-- /Summary -->
 
       <div class="col-lg-8 col-lg-offset-2 mt text-left">
-				<h4>The Problem</h4>
-				<p>The problem is two-fold: <strong>clothing sizes are not standardized and women’s bodies are not standardized</strong>.</p>
-        <p>This is a more pervasive problem than simple aesthetics. Research has shown that what you wear can actually affect your confidence.<sup>1</sup> Further wearing a smaller size makes us feel better.<sup>2</sup> Simply put: <strong>looking good can make you feel good</strong>.</p>
-        <p class="caption">1) Pine K. Mind What You Wear: The Psychology of Fashion. Amazon Digital Services LLC, 2014</p>
-        <p class="caption">2) Kinley TR. Size Variation in Women’s Pants. Clothing and Textiles Research Journal. 2003.</p>
-      </div>
-
-      <div class="col-lg-8 col-lg-offset-2 mt text-left">
-				<h4>User Interviews</h4>
+        <h2>The Process</h2>
+        <span class="anchor" id="user-research"></span>
+        <h3 class="mt30">User Interviews</h3>
 				<p>I prepared a list of about 15 questions to ask several people. In the first round of interviews I covered a variety of topics to identify many potential pain points.</p>
         <p>I had a hunch that the sizing of clothes was a particular pain point. These interviews confirmed my hunch, so I did a second round of user interviews focusing on sizing.</p>
         <p>Every single woman I spoke to, regardless of body type, identified finding clothes that fit as a pain point.</p>
       </div>
 
-      <div class="col-lg-8 col-lg-offset-2 mt text-left">
-				<h4>Moving towards a solution</h4>
+      <div class="col-lg-8 col-lg-offset-2 mt30 text-left">
+        <span class="anchor" id="ideating"></span>
+				<h3>Moving towards a solution</h3>
 				<p>My first idea was to create an app that would tell the user what size to buy in any store based on their measurements.</p>
         <p>However, various sizing apps already exist partnered with various retailers. My app would offer information from a wider variety of stores not covered by current offerings. However, to accomplish this would require sizing information from each store. Obtaining accurate measurements on every single item of clothing in every single store would be very difficult.</p>
         <p>The alternative would be to use sizing charts. Most stores provide these on their websites, however, they are often difficult to find. The app would pool this information in one place. However, sizing charts can be unreliable.</p>
@@ -115,8 +148,9 @@
         <p>After talking to some more people, and a little head scratching, I decided to limit the scope by focussing on one article of clothing. This would enable my app to use actual measurements making results reliable. I picked jeans because most people wear them and they are relatively standardized.</p>
       </div>
 
-      <div class="col-lg-8 col-lg-offset-2 mt text-left">
-        <h4>Storyboard</h4>
+      <div class="col-lg-8 col-lg-offset-2 mt30 text-left">
+        <span class="anchor" id="story-boarding"></span>
+        <h3>Storyboard</h3>
         <p>This storyboard was inspired by something told to me in a user interview about how disheartening shopping trips can be when nothing fits.</p>
       </div>
       <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
@@ -135,7 +169,8 @@
       </div>
 
 			<div class="col-lg-8 col-lg-offset-2 text-left">
-				<h4 class="mt">User Flows</h4>
+        <span class="anchor" id="user-flows"></span>
+        <h3 class="mt">User Flows</h3>
 					<p>To flesh out how the app will actually work I created user flows for each of the major features. Below you can the the overall user flow.</p>
       </div>
       <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
@@ -144,7 +179,8 @@
       </div>
 
       <div class="col-lg-8 col-lg-offset-2 text-left">
-				<h4 class="mt">Wire Flows</h4>
+        <span class="anchor" id="wire-flows"></span>
+        <h3 class="mt">Wire Flows</h3>
 					<p>I sketched out screens for these user flows and put them up on the white board to refine the flow.</p>
       </div>
       <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
@@ -152,7 +188,8 @@
       </div>
 
       <div class="col-lg-8 col-lg-offset-2 text-left">
-				<h4 class="mt">Paper Prototype</h4>
+        <span class="anchor" id="paper-prototype"></span>
+        <h3 class="mt">Paper Prototype</h3>
 				<p>I then focused on the flow of entering measurements, getting recommendations and looking at the results to create a paper prototype. In this iteration, I cleaned up the design and made it more consistent. In particular, in my initials sketches, the text entry fields were labelled in different ways.</p>
       </div>
       <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
@@ -160,15 +197,18 @@
       </div>
 
       <div class="col-lg-8 col-lg-offset-2 text-left">
-				<h4 class="mt">User Testing</h4>
+        <span class="anchor" id="user-testing"></span>
+				<h3 class="mt">User Testing</h3>
 				<p>I used my paper prototype to test my app. To improve on this project I would perform more user testing. The testing I did do provided limited actionable feedback. As a result there was not that much change between iterations.</p>
       </div>
       <div class="imgpanel col-lg-8 col-lg-offset-2 text-left">
         <img class="img-responsive illustration" src="assets/img/jeanius/User_Testing.jpg">
       </div>
 
-      <div class="col-lg-8 col-lg-offset-2 text-left">
-				<h4 class="mt">Final Low-Fidelity Prototype</h4>
+      <div class="col-lg-8 col-lg-offset-2 text-left mt">
+        <span class="anchor" id="final-lo-fi-prototype"></span>
+        <h2>The Product</h2>
+        <h3 class="mt30">Final Low-Fidelity Prototype</h3>
 				<p>I re-sketched my screens with a sticky header including a back button for the final low-fidelity prototype.</p>
       </div>
 
@@ -250,13 +290,18 @@
       </div>
 
       <div class="col-lg-8 col-lg-offset-2 text-left">
-        <h4 class="mt">Clickable Prototype</h4>
+        <span class="anchor" id="clickable-prototype"></span>
+        <h3 class="mt">Clickable Prototype</h3>
 				<p>Finally I used Marvel to create a clickable prototype.</p>
       </div>
       <div class="imgpanel col-lg-8 col-lg-offset-2">
         <iframe class="illustration" src="https://marvelapp.com/11g02i9?emb=1"
         height="500px" allowTransparency="true" frameborder="0"></iframe>
       </div>
+
+      <div class="col-lg-8 col-lg-offset-2 text-left mt"><!-- References -->
+        <p class="caption">1) Pine K. Mind What You Wear: The Psychology of Fashion. Amazon Digital Services LLC, 2014</p>
+      </div><!-- /References -->
 
 
 		</div><! --/row -->
