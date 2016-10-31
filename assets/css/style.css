@@ -97,6 +97,15 @@ h2 {
   font-size: 50px;
 }
 
+@media (max-width: 767px) {
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
 .navbar-name {
   /*font-family: 'Oswald', sans-serif;*/
   /*font-family: 'Montserrat Subrayada', sans-serif;*/
@@ -256,6 +265,12 @@ h2 {
 	letter-spacing: 4px;
 	font-size: 80px;
 	font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    #workwrap h1 {
+    font-size: 36px;
+  }
 }
 
 #workwrap h4 {
