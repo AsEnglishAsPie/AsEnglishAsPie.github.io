@@ -51,6 +51,10 @@
 	margin-top: 60px;
 }
 
+.mt30 {
+  margin-top: 30px;
+}
+
 .mb {
 	margin-bottom: 80px;
 }
@@ -84,6 +88,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
     color: #4a4a4a;
+}
+
+h2 {
+  font-size: 50px;
 }
 
 .navbar-name {
@@ -312,6 +320,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.anchor{
+  display: block;
+  height: 85px; /*same height as header*/
+  margin-top: -85px;
+  visibility: hidden;
+}
+
+/*[doesn't work].prototype {
+  margin-right: auto;
+  margin-left: auto;
+}*/
 
 /* Masonry */
 .grid-item { width: 370px; }
