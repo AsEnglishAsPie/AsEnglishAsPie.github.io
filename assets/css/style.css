@@ -362,6 +362,60 @@ h2 {
   border-color: #4a4a4a;
 }
 
+.contents-table {
+  border-style: solid;
+  border-width: thin;
+  border-color: #4a4a4a;
+}
+
+.contents-table tr td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: solid thin;
+  border-bottom: solid thin;
+}
+
+.contents-table th {
+  padding: 5px;
+  text-align: center;
+  border-top: solid thin #4a4a4a;
+  border-bottom: solid thin #4a4a4a;
+  border-left: none;
+  border-right: none;
+}
+
+.wcell {
+  border-color: #4a4a4a;
+}
+
+.lpcell {
+  background-color: #D6C5E6;
+  color: #3E265A;
+  border-color: white;
+  text-align: center;
+}
+
+.mpcell {
+  background-color: #7B4992;
+  color: white;
+  border-color: white;
+  text-align: center;
+}
+
+.dpcell {
+  background-color: #3E265A;
+  color: white;
+  border-color: white;
+  text-align: center;
+}
+
+object {
+  width: 100%;
+  height: 600px;
+}
+
 /* Masonry */
 .grid-item { width: 370px; }
 .grid-item--width2 { width: 740px; }
