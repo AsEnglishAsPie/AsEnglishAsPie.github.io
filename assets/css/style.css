@@ -411,10 +411,35 @@ h2 {
   text-align: center;
 }
 
-object {
-  width: 100%;
-  height: 600px;
+.prototype-preview {
+  position: relative;
 }
+
+.prototype-preview-text {
+	position: absolute;
+	background-color: white;
+	z-index: 10;
+	bottom: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.prototype-preview-text h2 {
+	position: absolute;
+	z-index: 200;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: 0.2s linear all;
+}
+.prototype-preview-text:hover {
+	opacity: .88;
+    transition: 0.36s linear all;
+}
+
 
 /* Masonry */
 .grid-item { width: 370px; }
